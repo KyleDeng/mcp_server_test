@@ -1,0 +1,15 @@
+*.log
+*.pyc
+*.DS_Store
+__pycache__
+.vscode
+.tags
+poetry.lock
+
+
+/tmp
+/output
+/build
+/dist
+/cache
+/.venv
