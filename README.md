@@ -40,7 +40,7 @@ def opt_2_nums(a: int, b: int):
 
 
 if __name__ == "__main__":
-    mcp.run(transport='sse')  # 启用调试模式
+    mcp.run(transport='stdio')  # 启用调试模式
 
 ```
 
@@ -65,6 +65,10 @@ if __name__ == "__main__":
 * 工具（Tools）：可以被 LLM 调用的函数（需要用户批准）
 
 * 提示（Prompts）：预先编写的模板，帮助用户完成特定任务
+
+**疑问**
+
+测试发现,使用`prompt`装饰的函数，始终没有找到方法触发
 
 ## 本地验证效果
 

@@ -13,3 +13,6 @@ poetry.lock
 /dist
 /cache
 /.venv
+
+/history.json
+/.accounting_data
